@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/********************************* * ! Style rules for defult section **********************************/
+ :root{
+     --text-secondary:#8794BA;
+     --text-main: #172755;
+}
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+ body{
+     font-family: 'Roboto', sans-serif;
+     background: #F8F9FF;
+}
+ h1,h2,h3,h4,h5{
+     font-weight: 700px;
+}
+/********************************* * ! Style rules for common componant section **********************************/
+ .container{
+     max-width: 1180px;
+     margin: 0 auto;
+}
+ section{
+     margin: 120px 0;
+}
+ p{
+     color: var(--text-secondary);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 150%;
+}
+ h2{
+     color: var(--text-main);
+     font-family: Roboto;
+     font-size: 40px;
+     font-style: normal;
+     line-height: normal;
+}
+/********************************* * ! Style rules for navber section **********************************/
+ header{
+     background-image: url(image/background-top.png);
+     height:815px;
+     background-repeat: no-repeat;
+}
+ nav{
+     display: flex;
+     align-items: center;
+     padding-top: 60px;
+}
+ nav ul{
+     display: flex;
+     margin-left: 60px;
+}
+ nav ul li{
+     margin: 0 18px;
+}
+ .header-row > ul{
+     flex: 1;
+}
+ .nav-link a{
+     margin-right: 40px;
+}
+ .nav-btn{
+     color: var(--text-secondary);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     background-color:#172755 ;
+     height: 40px;
+     padding: 10px 53px;
+     align-items: center;
+     gap: 10px;
+     flex-shrink: 0;
+     border-radius: 68px;
+     border: 1px solid #465B95;
+}
+ nav ul li a,.nav-link a{
+     color: var(--text-secondary);
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+/********************************* * ! Style rules for.. hero section **********************************/
+ .hero-area{
+     display: flex;
+     gap: 103px;
+}
+ .hero-tittle{
+     margin-left: 210px;
+}
+ .hero-bg{
+     margin-top:74px;
+}
+ .hero-btn{
+     display: flex;
+     height: 50px;
+     padding: 10px 80px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     border-radius: 68px;
+     background: #EF2A82;
+     padding: 10px 80px;
+     color: #FFF;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     border: none;
+     margin-top:49px ;
+}
+ h1{
+     color: #FFF;
+     margin: 152px 0px 15px 0;
+     font-family: Roboto;
+     font-size: 40px;
+     font-style: normal;
+     line-height: 120%;
+}
+/********************************* * ! Style rules for.. main section **********************************/
+ .main-h2{
+     text-align: center;
+     margin: 38px 0 30px 0;
+}
+ .main-cart-parent{
+     display: flex;
+     justify-content: space-between;
+     margin: 80px 0 130px 0;
+}
+ .main-cart{
+     width: 380px;
+     height: 164px;
+     text-align: center;
+     margin: 0 auto;
+}
+ .main-p{
+     text-align: center;
+}
+ h5{
+     color: var(--text-main);
+     text-align: center;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     line-height: normal;
+     margin: 26px 0px 15px 0;
+}
+/********************************* * ! Style rules for..reportg section **********************************/
+ .report-cart{
+     display: flex;
+     align-items: center;
+     gap: 100px;
+}
+ .report-cart-2{
+     display: flex;
+     flex-direction: row-reverse;
+}
+ .report-tittle p{
+     margin-top: 30px;
+}
+ .img-2{
+     margin-left: -50px;
+}
+/********************************* * ! Style rules for.. footer section **********************************/
+ footer{
+     background-image: url(image/background-bottom.png);
+     height: 1208px;
+     z-index: -1;
+}
+ .footer h2,p{
+     text-align: center;
+}
+ .footer h2{
+     color: #FFF;
+}
+ .footer {
+     padding: 302px 0 30px 0;
+}
+ .footer-cart-parent{
+     display: flex;
+     justify-content: space-between;
+     margin: 80px 0 100px 0;
+}
+ .footer-cart{
+     border-radius: 30px;
+     opacity: 0.699999988079071;
+     background: #0F1F4B;
+     width: 340px;
+     height: 440px;
+     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+     text-align: center;
+}
+ .footer-cart h4{
+     color: #FFF;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     margin: 50px 0px 10px 0;
+     position: relative;
+}
+ .footer-cart h4::before{
+     content: '';
+     position: absolute;
+     background: #2A407C;
+     width: 220px;
+     height: 1px;
+     left:60px;
+     bottom: -75px;
+}
+ .footer-cart h2 , .footer-cart h2 span{
+     color: #FFF;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 60px;
+     font-style: normal;
+     line-height: normal;
+     margin-top: 66px;
+}
+ .footer-cart h2{
+     font-size: 30px;
+}
+ .footer-cart-2{
+     background-color: #FFF;
+}
+ .footer-cart-2 h4 , .footer-cart-2 h2 span, .footer-cart-2 h2{
+     color:var(--text-main) ;
+}
+ .footer-btn{
+     margin-top: 40px;
+}
+ .f-btn-2{
+     border-radius: 68px;
+     background: #EF2A82;
+}
+ .footer-nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 69px;
+}
+ .footer-nav ul{
+     display: flex;
+}
+ .footer-nav ul li{
+     margin: 0 18px;
+}
+ .footer-nav ul li a{
+     color: var(--text-secondary);
+     font-family: Roboto;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+ .footer-link a{
+     margin-left: 40px;
+}
+ 
